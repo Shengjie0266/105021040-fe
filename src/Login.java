@@ -55,7 +55,9 @@ public class Login extends JFrame {
         jbtnStart.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                MainFrame mmmm= new MainFrame();
+                mmmm.setVisible(true);
+                Login.this.setVisible(false);
             }
         });
     }
